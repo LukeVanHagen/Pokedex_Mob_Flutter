@@ -1,0 +1,26 @@
+name: pokedex_app
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.2.3 <4.0.0' # Verifique sua versão do Flutter e ajuste se necessário
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.2.1
+  provider: ^6.1.2
+  shared_preferences: ^2.2.3  # Para armazenamento no browser
+  google_fonts: ^6.2.1        # Para a fonte pixelada
+
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
